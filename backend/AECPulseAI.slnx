@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AEC.AI.Core/AEC.AI.Core.csproj" />
+    <Project Path="src/AECPulse.API/AECPulse.API.csproj" />
+    <Project Path="src/AECPulse.Application/AECPulse.Application.csproj" />
+    <Project Path="src/AECPulse.Domain/AECPulse.Domain.csproj" />
+    <Project Path="src/AECPulse.Infrastructure/AECPulse.Infrastructure.csproj" />
+  </Folder>
+</Solution>

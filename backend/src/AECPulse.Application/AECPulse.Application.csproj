@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AECPulse.Domain\AECPulse.Domain.csproj" />
+     <ProjectReference Include="..\AEC.AI.Core\AEC.AI.Core.csproj" />
+      <ProjectReference Include="..\AECPulse.Infrastructure\AECPulse.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
