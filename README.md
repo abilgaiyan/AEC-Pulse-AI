@@ -1,6 +1,6 @@
 # 🚀 AEC-Pulse AI: Enterprise Agentic ERP Intelligence
 
-**AEC-Pulse AI** is a next-generation "Reasoning Layer" for Architecture, Engineering, and Construction (AEC) firms. Built on the **Microsoft Agent Framework (MAF)** and **.NET 9**, it transforms static ERP data (like Deltek Vantagepoint) into actionable intelligence using Multi-Agent Orchestration.
+**AEC-Pulse AI** is a next-generation "Reasoning Layer" for Architecture, Engineering, and Construction (AEC) firms. Built on the **Microsoft Agent Framework (MAF)** and **.NET 9**, it transforms static ERP data  into actionable intelligence using Multi-Agent Orchestration.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![.NET 9](https://img.shields.io/badge/.NET-9.0-blue)
