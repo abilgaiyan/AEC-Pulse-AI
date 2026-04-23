@@ -7,8 +7,10 @@ using AECPulse.Infrastructure.Data;
 using AEC.AI.Core.Extensions;
 using AEC.AI.Core.Tools;
 using AEC.AI.Core.Tools.Core;
+using AEC.AI.Core.Services;
 using AEC.AI.Core.Tools.Implementations;
 using AEC.AI.Core.Agents;
+using AECPulse.Infrastructure.AI;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -42,6 +44,12 @@ builder.Services.AddTools(builder.Configuration)
                 //.AddTool<ProjectDataTool>() // our data bridge
                 .AddTool<CalculatorTool>()     // Utility
                 .AddTool<DateTimeTool>();      // Utility
+
+// 3b. Scoped tool provider — infrastructure implementation
+builder.Services.AddScoped<IScopedToolProvider, AecScopedToolProvider>();
+ 
+// 3c. Agent service — scoped, builds agents per request
+builder.Services.AddScoped<IAgentService, AgentService>();                
 
 // 4. Standard API services
 builder.Services.AddEndpointsApiExplorer();
